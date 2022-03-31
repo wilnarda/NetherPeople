@@ -1,5 +1,5 @@
 {
-      "name": "Skyzu Robot",
+      "name": "NP Guard",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/56811b69cbcece20bbebf.jpg",  
-   "repository": "https://github.com/Skyzu/SkyzuRobot",
+   "logo":    "https://telegra.ph//file/42219a5d622a653e1b00e.jpg",  
+   "repository": "https://github.com/wilnarda/NetherPeople",
    "addons": [
           {
          "options": {

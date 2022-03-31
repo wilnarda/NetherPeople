@@ -83,8 +83,8 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 ────────────────────────
-✪ I'm an anime theme bot designed to help manage your telegram group with a lot features.
-✪ Maintained by @skyzu ✨
+✪ I'm an powerful telegram helper bot with a lot features.
+✪ Maintained by @wilnira ✨
 ────────────────────────
 Hit the /help to see available command.
 """
@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://github.com/Skyzu/SkyzuRobot"
+            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://github.com/wilnarda/NetherPeople"
         ),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
@@ -117,7 +117,7 @@ Click on the button bellow to get description about specifics command."""
 EMI_IMG = "https://telegra.ph/file/56811b69cbcece20bbebf.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @skyzu \
+ You can support the project by contacting @wilnira \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -371,7 +371,7 @@ def Skyzu_about_callback(update, context):
     query = update.callback_query
     if query.data == "Skyzu_":
         query.message.edit_text(
-            text="๏ I'm *Skyzu*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *NP Guard*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -479,13 +479,13 @@ def Skyzu_about_callback(update, context):
 
     elif query.data == "Skyzu_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for Skyzu</b>\n"
-            f"\nHere Developers Making The SkyzuRobot",
+            text=f"<b>๏ Credis for this bot</b>\n"
+            f"\nHere Developers Making The NP Guard",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Skyzu", url="t.me/skyzu"),
+                        InlineKeyboardButton(text="Wilna", url="t.me/wilnira"),
                     ],
                     [
                         InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
@@ -804,7 +804,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                f"""**Skyzu Robot Started!**
+                f"""**NP Guard Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
